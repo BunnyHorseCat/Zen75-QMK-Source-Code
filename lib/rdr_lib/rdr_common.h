@@ -221,8 +221,8 @@ typedef enum {
 #define INIT_ALL_KEY                (1)                                                     // 全键
 #define INIT_ALL_SIX_KEY            (INIT_ALL_KEY)                                          // 全键
 
-#define INIT_MAC_MODE               (0)                                                     // Windows
-#define INIT_WIN_MODE               (1)                                                     // Mac
+#define INIT_WIN_MODE               (0)                                                     // Windows
+#define INIT_MAC_MODE               (1)                                                     // Mac
 #define INIT_WIN_MAC_MODE           (INIT_MAC_MODE)                                         // Windows
 
 #define INIT_WIN_NLOCK              (0)                                                     // 不锁WIN
