@@ -11,7 +11,7 @@
 			[
 				
 				{
-					"label": "Per-Key RGB",
+					"label": "RGB Effects",
 					"content":
 					[
 						{
@@ -26,52 +26,53 @@
 							"content": ["id_qmk_rgb_matrix_effect", 3, 2],
 							"options":
 							[
-								[ "ALL RGB OFF", 0 ],
-								[ "solid_color", 1 ],
-								[ "alphas_mods", 2 ],
-								[ "gradient_up_down", 3 ],
-								[ "gradient_left_right", 4 ],
-								[ "breathing", 5 ],
-								[ "band_sat", 6 ],
-								[ "band_val", 7 ],
-								[ "band_pinwheel_sat", 8 ],
-								[ "band_pinwheel_val", 9 ],
-								[ "band_spiral_sat", 10 ],
-								[ "band_spiral_val", 11 ],
-								[ "cycle_all", 12 ],
-								[ "cycle_left_right", 13 ],
-								[ "cycle_up_down", 14 ],
-								[ "cycle_out_in", 15 ],
-								[ "cycle_out_in_dual", 16 ],
-								[ "rainbow_moving_chevron", 17 ],
-								[ "cycle_pinwheel", 18 ],
-								[ "cycle_spiral", 19 ],
-								[ "dual_beacon", 20 ],
-								[ "rainbow_beacon", 21 ],
-								[ "rainbow_pinwheels", 22 ],
-								[ "flower_blooming", 23 ],
-								[ "raindrops", 24 ],
-								[ "jellybean_raindrops", 25 ],
-								[ "hue_breathing", 26 ],
-								[ "hue_pendulum", 27 ],
-								[ "hue_wave", 28 ],
-								[ "pixel_flow", 29 ],
-								[ "digital_rain", 30 ],
-								[ "solid_reactive", 31 ],
-								[ "solid_reactive_wide", 32 ],
-								[ "solid_reactive_multiwide", 33 ],
-								[ "solid_reactive_cross", 34 ],
-								[ "solid_reactive_multicross", 35 ],
-								[ "solid_reactive_nexus", 36 ],
-								[ "solid_reactive_multinexus", 37 ],
-								[ "splash", 38 ],
-								[ "multisplash", 39 ],
-								[ "solid_splash", 40 ],
-								[ "solid_multisplash", 41 ],
-								[ "starlight", 42 ],
-								[ "starlight_dual_hue", 43 ],
-								[ "starlight_dual_sat", 44 ],
-								[ "riverflow", 45 ]
+								[ "All RGB Off", 0 ],
+								[ "Solid Color", 1 ],
+								[ "Alphas Mods", 2 ],
+								[ "Gradient Up Down", 3 ],
+								[ "Gradient Left Right", 4 ],
+								[ "Breathing", 5 ],
+								[ "Band Sat", 6 ],
+								[ "Band Val", 7 ],
+								[ "Band Pinwheel Sat", 8 ],
+								[ "Band Pinwheel Val", 9 ],
+								[ "Band Spiral Sat", 10 ],
+								[ "Band Spiral Val", 11 ],
+								[ "Cycle All", 12 ],
+								[ "Cycle Left Right", 13 ],
+								[ "Cycle Up Down", 14 ],
+								[ "Cycle Out In", 15 ],
+								[ "Cycle Out In Dual", 16 ],
+								[ "Rainbow Moving Chevron", 17 ],
+								[ "Cycle Pinwheel", 18 ],
+								[ "Cycle Spiral", 19 ],
+								[ "Dual Beacon", 20 ],
+								[ "Rainbow Beacon", 21 ],
+								[ "Rainbow Pinwheels", 22 ],
+								[ "Flower Blooming", 23 ],
+								[ "Raindrops", 24 ],
+								[ "Jellybean Raindrops", 25 ],
+								[ "Hue Breathing", 26 ],
+								[ "Hue Pendulum", 27 ],
+								[ "Hue Wave", 28 ],
+								[ "Pixel Flow", 29 ],
+								[ "Typing Heatmap", 30 ],
+								[ "Digital Rain", 31 ],
+								[ "Solid Reactive", 32 ],
+								[ "Solid Reactive Wide", 33 ],
+								[ "Solid Reactive_multiwide", 34 ],
+								[ "Solid Reactive Cross", 35 ],
+								[ "Solid Reactive Multicross", 36 ],
+								[ "Solid Reactive Nexus", 37 ],
+								[ "Solid Reactive Multinexus", 38 ],
+								[ "Splash", 39 ],
+								[ "Multisplash", 40 ],
+								[ "Solid Splash", 41 ],
+								[ "Solid Multisplash", 42 ],
+								[ "Starlight", 43 ],
+								[ "Starlight Dual Hue", 44 ],
+								[ "Starlight Dual Sat", 45 ],
+								[ "Riverflow", 46 ]
 							]
 						},
 						{
@@ -106,7 +107,18 @@
 		{"name": "KbdSecS",  "title": "Keyboard secondary sleep",                "shortName": "KbdSecS" },
         {"name": "IOS_SIRI", "title": "Outgoing SIRI",                           "shortName": "SIRI"    },
         {"name": "RTOG",     "title": "Toggle led lighting on or off",           "shortName": "RGB_RTOG"},
-        {"name": "QK_DEB",   "title": "Number of times that the key shakes off", "shortName": "QK_DEB"  }
+        {"name": "LBTOG",     "title": "Toggle light bar effects on or off",           "shortName": "SD_TOG"},
+        {"name": "LBMODI",     "title": "Light bar mode increase",           "shortName": "SD_MOD"},
+        {"name": "LBMODD",     "title": "Light bar mode decrease",           "shortName": "SD_RMOD"},
+        {"name": "LBHUI",     "title": "Light bar hue increase",           "shortName": "SD_HUI"},
+        {"name": "LBHUD",     "title": "Light bar hue decrease",           "shortName": "SD_HUD"},
+        {"name": "LBSAI",     "title": "Light bar saturation increase",           "shortName": "SD_SAI"},
+        {"name": "LBSAD",     "title": "Light bar saturation decrease",           "shortName": "SD_SAD"},
+        {"name": "LBVAI",     "title": "Light bar brightness increase",           "shortName": "SD_VAI"},
+        {"name": "LBVAD",     "title": "Light bar brightness decrease",           "shortName": "SD_VAD"},
+        {"name": "LBSPI",     "title": "Light bar effect speed increase",           "shortName": "SD_SPI"},
+        {"name": "LBSPD",     "title": "Light bar effect speed decrease",           "shortName": "SD_SPD"},
+        {"name": "QK_DEB",   "title": "Debounce Mode", "shortName": "QK_DEB"  }
 	],
 	"matrix": { "rows": 6, "cols": 16 },
 	"layouts": {
@@ -129,7 +141,7 @@
 				{ "w":1.0,  "h":1.0,  "x":0.0 },  "0,12",
 				{ "w":1.0,  "h":1.0,  "x":0.0 },  "0,13",
 				{ "w":1.0,  "h":1.0,  "x":0.0 },  "0,14",
-				{ "w":1.0,  "h":1.0,  "x":0.25},  "0,15"
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "0,15"
 			],
 			[
                 { "c":"#aaaaaa" },
@@ -148,7 +160,7 @@
 				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,12",
                 { "c":"#cccccc" },
 				{ "w":2.0,  "h":1.0,  "x":0.0 },  "1,13",
-				{ "w":1.0,  "h":1.0,  "x":0.25},  "1,14"
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "1,14"
 			],
 
 			[
@@ -169,7 +181,7 @@
 				{ "w":1.0,  "h":1.0,  "x":0.0 },  "2,12",
 				{ "w":1.5,  "h":1.0,  "x":0.0 },  "2,13",
 				{ "c":"#cccccc" },
-				{ "w":1.0,  "h":1.0,  "x":0.25},  "3,14"
+				{ "w":1.0,  "h":1.0,  "x":0.0 },  "3,14"
 			],
 
 			[
@@ -190,7 +202,7 @@
 				{ "c":"#777777" },
 				{ "w":2.25, "h":1.0,  "x":0.0 },  "3,13",
 				{ "c":"#cccccc" },
-				{ "w":1.0,  "h":1.0,  "x":0.25},  "3,15"
+				{ "w":1.0,  "h":1.0,  "x":0.00},  "3,15"
 			],
 
 			[
@@ -208,7 +220,7 @@
 				{ "w":1.0,  "h":1.0,  "x":0.0 },  "4,10",
 				{ "w":1.0,  "h":1.0,  "x":0.0 },  "4,11",
                 { "c":"#cccccc" },
-				{ "w":2.0,  "h":1.0,  "x":0.0 },  "4,13",
+				{ "w":1.75,  "h":1.0,  "x":0.0 },  "4,13",
 				{ "c":"#777777" },
 				{ "w":1.0,  "h":1.0,  "x":0.0 },  "4,14",
                 { "c":"#cccccc" },
@@ -227,7 +239,7 @@
 				{ "w":1.0,	"h":1.0,  "x":0.0 },  "5,10",
 				{ "w":1.0,	"h":1.0,  "x":0.0 },  "5,12",
 				{ "c":"#777777" },
-				{ "w":1.0,	"h":1.0,  "x":0.25},  "5,13",
+				{ "w":1.0,	"h":1.0,  "x":0.0 },  "5,13",
 				{ "w":1.0,	"h":1.0,  "x":0.0 },  "5,14",
 				{ "w":1.0,	"h":1.0,  "x":0.0 },  "5,15"
 			]
