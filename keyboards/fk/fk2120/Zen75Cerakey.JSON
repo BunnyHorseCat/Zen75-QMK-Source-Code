@@ -1,5 +1,5 @@
 {
-	"name": "ZEN75",
+	"name": "Cerakey Zen75",
 	"vendorId": "0x36B0",
 	"productId": "0x3118",
 	"keycodes": ["qmk_lighting"],
