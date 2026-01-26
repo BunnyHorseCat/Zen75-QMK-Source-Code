@@ -17,9 +17,9 @@
 #pragma once
 
 /* Mechanical locking support. Use KC_LCAP, KC_LNUM or KC_LSCR instead in keymap */
-#define LOCKING_SUPPORT_ENABLE
+//#define LOCKING_SUPPORT_ENABLE
 /* Locking resynchronize hack */
-#define LOCKING_RESYNC_ENABLE
+//#define LOCKING_RESYNC_ENABLE
 
 /* Define less important options */
 
@@ -54,8 +54,6 @@
 /* Ensure we jump to bootloader if the RESET keycode was pressed */
 #define EARLY_INIT_PERFORM_BOOTLOADER_JUMP TRUE
 
-#define DEBOUNCE 2
-
 #ifndef NOP_FUDGE
 #define NOP_FUDGE 0.4
 #endif
@@ -69,7 +67,18 @@
 #define RGB_MATRIX_MAXIMUM_BRIGHTNESS 128
 #define RGB_MATRIX_SLEEP
 
-#define RGB_MATRIX_SPD_STEP 64                 // 设置 RGB 矩阵速度步进值
-#define RGB_MATRIX_VAL_STEP 32                 // 设置 RGB 矩阵亮度步进值
-#define RGB_MATRIX_DEFAULT_VAL 64             // 设置 RGB 矩阵默认亮度值
-#define RGB_MATRIX_DEFAULT_SPD 255          // 设置 RGB 矩阵默认亮度值
+#define RGB_MATRIX_SPD_STEP 16                 // 设置 RGB 矩阵速度步进值
+#define RGB_MATRIX_VAL_STEP 16                 // 设置 RGB 矩阵亮度步进值
+#define RGB_MATRIX_DEFAULT_VAL 128    // 设置 RGB 矩阵默认亮度值
+#define RGB_MATRIX_DEFAULT_SPD 128          // 设置 RGB 矩阵默认亮度值
+
+#        define RIGHT_LED_BAR_LIST \
+            { 84, 85, 86, 87, 88 }
+
+#        define LEFT_LED_BAR_LIST \
+            { 89, 90, 91, 92, 93 }
+/* Backlit disable timeout when keyboard is disconnected(unit: second) */
+#        define DISCONNECTED_BACKLIGHT_DISABLE_TIMEOUT 40
+
+/* Backlit disable timeout when keyboard is connected(unit: second) */
+#        define CONNECTED_BACKLIGHT_DISABLE_TIMEOUT 600
