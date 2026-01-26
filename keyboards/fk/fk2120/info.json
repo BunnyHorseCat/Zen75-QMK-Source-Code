@@ -1,5 +1,5 @@
 {
-    "keyboard_name": "Zen75",
+    "keyboard_name": "Cerakey Zen75",
     "manufacturer": "RDMCTMZT",
     "maintainer": "RDMCTMZT",
     "usb": {
@@ -7,6 +7,11 @@
         "pid": "0x3118",
         "device_version": "0.2.0"
     },
+    "build": {
+	    "debounce_type":
+    "sym_eager_pk"
+	},
+    "debounce": 50,
     "matrix_pins": {
         "cols": [ "D15", "D14", "C15", "C14", "C13", "D3", "D2", "C12", "C11", "C10", "A14", "C9", "C8", "C7", "C6", "B15" ],
         "rows": [ "B0", "B3", "B4", "B5", "B6", "B7" ]
@@ -55,7 +60,7 @@
             "pixel_fractal": false,
             "pixel_flow": true,
             "pixel_rain": false,
-            "typing_heatmap": false,
+            "typing_heatmap": true,
             "digital_rain": true,
             "solid_reactive_simple": false,
             "solid_reactive": true,
