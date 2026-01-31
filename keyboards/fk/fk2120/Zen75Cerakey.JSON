@@ -118,7 +118,12 @@
         {"name": "LBVAI",     "title": "Light bar brightness increase",           "shortName": "SD_VAI"},
         {"name": "LBVAD",     "title": "Light bar brightness decrease",           "shortName": "SD_VAD"},
         {"name": "LBSPI",     "title": "Light bar effect speed increase",           "shortName": "SD_SPI"},
+<<<<<<< HEAD
         {"name": "LBSPD",     "title": "Light bar effect speed decrease",           "shortName": "SD_SPD"}
+=======
+        {"name": "LBSPD",     "title": "Light bar effect speed decrease",           "shortName": "SD_SPD"},
+        {"name": "QK_DEB",   "title": "Debounce Mode", "shortName": "QK_DEB"  }
+>>>>>>> f67f6e42a5ac4e5131495b818d83c28a1bce05c3
 	],
 	"matrix": { "rows": 6, "cols": 16 },
 	"layouts": {
