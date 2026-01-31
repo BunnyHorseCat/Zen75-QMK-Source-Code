@@ -246,6 +246,7 @@ __attribute__((weak)) void via_custom_value_command(uint8_t *data, uint8_t lengt
         via_qmk_rgb_matrix_command(data, length);
         return;
     }
+
 #if LOGO_LED_ENABLE
     else if (*channel_id == id_qmk_rgblight_channel) {   //用户自定义 VIA 修改 LOGO灯 占用 backlight接口
         User_Via_Qmk_Logo_Command(data, length);

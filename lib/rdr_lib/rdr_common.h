@@ -375,9 +375,9 @@ void Emi_Write_Data(uint8_t *User_Data, uint8_t User_Length);
 
 #define MAX_NAME_LEN                (18)
 #define USER_BlE_ID                 (0X50F3)
-#define USER_BlE1_NAME              "Zen75@Cerakey"
-#define USER_BlE2_NAME              "Zen75@Cerakey"
-#define USER_BlE3_NAME              "Zen75@Cerakey"
+#define USER_BlE1_NAME              "Cerakey Zen75 1"
+#define USER_BlE2_NAME              "Cerakey Zen75 2"
+#define USER_BlE3_NAME              "Cerakey Zen75 3"
 #define USER_DSLEEP_TIME            0X147AE0 //二级休眠时间 单位 S
 
 #define KEYBAORD_COL                (16)

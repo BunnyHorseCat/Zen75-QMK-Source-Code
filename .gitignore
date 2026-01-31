@@ -1,0 +1,6 @@
+# Ignore build files
+.build/
+# Ignore personal keymap
+keyboards/vero75/vero75/keymaps/viaAng/
+# Ignore personal keymap binary
+vero75_vero75_viaAng.bin
