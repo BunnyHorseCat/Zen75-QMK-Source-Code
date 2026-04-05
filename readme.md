@@ -1,3 +1,5 @@
+# This is only available here for historical purposes and for study. This is a version of the original source code for the Cerakey Zen75 (Finalkey FK2120 PCB). This source code is dependent on a binary blob that is included in the lib/rdr_lib folder and is not compliant with the licensing terms of QMK. This source code was used as the basis for the fully open source code in [QMK RDR](https://github.com/BunnyHorseCat/QMKRDRCommon) repository. If you are looking for a current firmware to flash on your Cerakey Zen75, it can be found in that repository.
+
 # THIS IS THE DEVELOP BRANCH
 
 Warning- This is the `develop` branch of QMK Firmware. You may encounter broken code here. Please see [Breaking Changes](https://docs.qmk.fm/#/breaking_changes) for more information.
